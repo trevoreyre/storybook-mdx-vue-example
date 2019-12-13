@@ -1,5 +1,5 @@
 import { Meta, Preview, Story } from '@storybook/addon-docs/blocks'
-import HelloWorld from './HelloWorld.vue'
+import HelloWorld from './HelloWorld.react'
 
 <Meta title="HelloWorld Docs" component={HelloWorld} />
 
@@ -9,9 +9,6 @@ Some MDX docs for the `HelloWorld` component.
 
 <Preview>
   <Story name="basic">
-    {{
-      components: { HelloWorld },
-      template: `<HelloWorld msg="HelloWorld Docs" />`,
-    }}
+    <HelloWorld msg="HelloWorld Docs" />
   </Story>
 </Preview>
