@@ -6,6 +6,5 @@ export default {
 };
 
 export const basic = () => ({
-  components: { HelloWorld },
   template: `<HelloWorld msg="HelloWorld Stories" />`
 });
